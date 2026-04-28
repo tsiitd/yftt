@@ -1,6 +1,6 @@
-# Yf_TrendTop — Project Context
+# yftt — Project Context
 
-> **Purpose of this file:** the single, complete context document for any future agentic chat about the Yf_TrendTop project. A new agent reading only this file should be able to pick up work without re-asking the user about goals, architecture, or scope.
+> **Purpose of this file:** the single, complete context document for any future agentic chat about the yftt project. A new agent reading only this file should be able to pick up work without re-asking the user about goals, architecture, or scope.
 >
 > **Last updated:** 2026-04-27
 > **Owner:** tsiitd (GitHub username)
@@ -12,8 +12,8 @@
 
 A free, public, mobile-first website that surfaces **Yahoo Finance stocks that are currently within 1% of (or above) their 52-week high**, drawn from two source lists: **Trending** (top 25) and **Most Active** (top 50). The user wants to spot momentum / breakout candidates from these popular-attention lists at a glance.
 
-**Live URL (planned):** `https://tsiitd.github.io/Yf_TrendTop/`
-**GitHub repo:** `https://github.com/tsiitd/Yf_TrendTop` (personal account, public)
+**Live URL:** `https://tsiitd.github.io/yftt/`
+**GitHub repo:** `https://github.com/tsiitd/yftt` (personal account, public)
 **Access:** public but unlisted — no auth, but `robots.txt` + `<meta name="robots" content="noindex">` to keep it out of search engines. Share-by-URL only.
 
 ---

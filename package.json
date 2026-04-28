@@ -1,0 +1,19 @@
+{
+  "name": "yf-trendtop",
+  "version": "1.0.0",
+  "description": "Yahoo Finance trending + most-active stocks near their 52-week high",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "refresh:live": "node scripts/refresh_live.mjs",
+    "refresh:eod": "node scripts/refresh_historic.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsiitd/Yf_TrendTop.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "yahoo-finance2": "^3.14.0"
+  }
+}

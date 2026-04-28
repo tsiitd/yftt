@@ -1,0 +1,219 @@
+/* ── Header ── */
+header {
+  border-bottom: 1px solid var(--pico-border-color);
+  padding: 0.6rem 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.header-left strong { font-size: 1.2rem; }
+
+.header-sub {
+  font-size: 0.78rem;
+  color: var(--pico-muted-color);
+}
+
+.icon-btn {
+  background: none;
+  border: 1px solid var(--pico-border-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.25rem 0.55rem;
+  border-radius: 50%;
+  line-height: 1;
+  width: auto;
+  color: var(--pico-color);
+}
+
+.icon-btn:hover { background: var(--pico-secondary-background); }
+
+/* ── Tabs ── */
+.tab-row {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.9rem 0 0.7rem;
+}
+
+.tab-btn {
+  width: auto;
+  padding: 0.35rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.88rem;
+  background: transparent;
+  color: var(--pico-color);
+  border: 1px solid var(--pico-border-color);
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: var(--pico-primary);
+  color: var(--pico-primary-inverse);
+  border-color: var(--pico-primary);
+}
+
+/* ── Banner ── */
+.banner {
+  padding: 0.55rem 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: var(--pico-border-radius);
+  font-size: 0.88rem;
+}
+
+.banner.warning {
+  background: rgba(245, 158, 11, 0.12);
+  border-left: 3px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.banner.neutral {
+  background: rgba(128, 128, 128, 0.1);
+  border-left: 3px solid var(--pico-muted-border-color, #555);
+  color: var(--pico-muted-color);
+}
+
+/* ── Controls row ── */
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.muted-text {
+  font-size: 0.82rem;
+  color: var(--pico-muted-color);
+}
+
+.controls-right {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+.filter-label input[type="checkbox"] {
+  margin: 0;
+  width: auto;
+}
+
+/* ── Table wrapper ── */
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* ── Table ── */
+#main-table {
+  white-space: nowrap;
+  font-size: 0.82rem;
+  margin: 0;
+}
+
+/* Sticky first column */
+#main-table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--pico-background-color);
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+}
+
+#main-table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--pico-background-color);
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Sortable headers */
+th[data-col] {
+  cursor: pointer;
+  user-select: none;
+}
+
+th[data-col]::after {
+  content: ' \2195';
+  opacity: 0.3;
+  font-size: 0.75em;
+}
+
+th[data-col].sort-asc::after {
+  content: ' \2191';
+  opacity: 1;
+}
+
+th[data-col].sort-desc::after {
+  content: ' \2193';
+  opacity: 1;
+}
+
+/* Ticker cell */
+.col-ticker a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--pico-primary);
+}
+
+.col-ticker a:hover { text-decoration: underline; }
+
+/* Outside-RTH cell */
+.col-rth { white-space: nowrap; }
+
+/* Pre/Post market pills */
+.rth-pill {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 9px;
+  margin-left: 4px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.rth-pill.pre  { background: #3b82f6; color: #fff; }
+.rth-pill.post { background: #f59e0b; color: #000; }
+
+/* Distance % colours */
+.dist-pos  { color: #22c55e; font-weight: 600; }
+.dist-near { color: #f59e0b; }
+
+/* Message / empty state */
+.msg-cell {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--pico-muted-color);
+  font-size: 0.9rem;
+}
+
+/* Row count */
+.row-count {
+  font-size: 0.78rem;
+  color: var(--pico-muted-color);
+  text-align: right;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}

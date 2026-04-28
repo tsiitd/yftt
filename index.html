@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>TrendTop — Near 52w High</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('yf-theme') || 'dark';</script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid header-inner">
+      <div class="header-left">
+        <strong>TrendTop</strong>
+        <span class="header-sub">Yahoo Finance stocks within 1% of their 52-week high</span>
+      </div>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="tab-row" role="tablist">
+      <button class="tab-btn active" role="tab" data-tab="trending">Trending (25)</button>
+      <button class="tab-btn" role="tab" data-tab="most_actives">Most Active (50)</button>
+    </div>
+
+    <div id="banner" class="banner" hidden></div>
+
+    <div class="controls-row">
+      <span id="last-updated" class="muted-text"></span>
+      <div class="controls-right">
+        <label class="filter-label">
+          <input type="checkbox" id="filter-yest-high" checked>
+          <span>Exclude if Yesterday was 52w High</span>
+        </label>
+        <button id="refresh-btn" class="outline secondary" style="width:auto;padding:0.3rem 0.8rem;font-size:0.85rem">&#x21BA; Refresh</button>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th data-col="ticker">Ticker</th>
+            <th data-col="rank" data-default-dir="asc">Rank</th>
+            <th data-col="name">Name</th>
+            <th data-col="market_cap_bn">Mkt Cap $Bn</th>
+            <th data-col="current_price">Price</th>
+            <th>Ext-Hrs</th>
+            <th data-col="high_52wk_t1">52w High T-1D</th>
+            <th data-col="distance_pct">Distance %</th>
+            <th data-col="t1_close">T-1D Close</th>
+            <th data-col="high_52wk_t2">52w High T-2D</th>
+            <th data-col="yesterday_was_52w_high">Yest 52w Hi?</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr><td colspan="11" class="msg-cell">Loading&hellip;</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p id="row-count" class="row-count"></p>
+  </main>
+
+  <script src="assets/script.js" type="module"></script>
+</body>
+</html>

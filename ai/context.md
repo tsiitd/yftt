@@ -26,9 +26,10 @@ A free, public, mobile-first website that surfaces **Yahoo Finance stocks that a
    - **Smart-stale banner logic:** warning banner appears ONLY if last-updated is >1hr old AND US markets are currently open (Mon–Fri, 9:30am–4pm ET). Outside market hours, a neutral banner shows: *"Markets closed — data shown is from the last update."*
 4. User can:
    - **Switch tabs** between "Trending" and "Most Active" at the top. Tabs share the historic_highs cache (loaded once); only the live file is fetched per tab. Each tab keeps its own sort/filter state.
-   - Tap the **Refresh** button → re-fetches the live JSON for the active tab + the historic file (does NOT trigger a fresh Action; just re-reads what's committed).
-   - Toggle the **"Exclude if Yesterday was 52wk High"** filter (default: ON).
-   - Tap any column header to sort ascending/descending. (Outside-RTH column is display-only, not sortable.)
+   - Tap the **Refresh** button → re-fetches the live JSON for both tabs + the historic file.
+   - Toggle the **"Exclude Yest 52w Hi"** and **"Exclude T-2D 52w Hi"** filters (default: OFF).
+   - Use the **"Cols" dropdown** (top right) to show/hide any of the 15 columns.
+   - Tap any column header to sort ascending/descending.
    - Toggle dark/light mode (default: dark).
    - Tap a ticker → opens `https://finance.yahoo.com/quote/{TICKER}` in a new tab.
 
@@ -39,34 +40,46 @@ A free, public, mobile-first website that surfaces **Yahoo Finance stocks that a
 Let `T` = today (the moment data is computed).
 
 - **Two source lists** — fetched independently each Action run:
-  - **Trending (25 stocks):** `yahooFinance.trendingSymbols('US', { count: 25 })`. Underlying URL: `https://finance.yahoo.com/markets/stocks/trending/`.
-  - **Most Active (50 stocks):** `yahooFinance.screener({ scrIds: 'most_actives', count: 50 })`. Underlying URL: `https://finance.yahoo.com/research-hub/screener/most_actives/?start=0&count=50`.
-- **Rank:** the order Yahoo returns the stock in (1-indexed), preserved per-list. Trending stocks have a "Yf Trend Rank"; Most Active stocks have a "Yf Active Rank".
-- **52wk High till T-1D:** `max(daily_close)` over the window `[T-365, T-1]` inclusive. **Yesterday's close is included; today is excluded.**
-- **52wk High till T-2D:** same as above but window `[T-366, T-2]`. Used to determine the "Yesterday was 52w High" flag.
-- **Current Price (`regularMarketPrice`):** the latest regular-session price from `yahoo-finance2`. During US RTH this is real-time; outside RTH it's the last regular-session close. **Used for ALL distance/filter calculations.**
-- **Outside-RTH Price:** the most recent of `postMarketPrice` / `preMarketPrice` by their respective Unix timestamps. Display only — never used in distance calculations.
+  - **Trending (25 stocks):** `yahooFinance.trendingSymbols('US', { count: 25 })`.
+  - **Most Active (50 stocks):** `yahooFinance.screener({ scrIds: 'most_actives', count: 50 })`.
+- **Rank:** the order Yahoo returns the stock in (1-indexed), preserved per-list.
+- **52wk High till T-1D:** `max(daily_close)` over `[T-252, T-1]` inclusive.
+- **52wk High till T-2D:** `max(daily_close)` over `[T-253, T-2]`.
+- **52wk High till T-3D:** `max(daily_close)` over `[T-254, T-3]`.
+- **Current Price:** latest regular-session price.
 - **T-1D Close:** yesterday's regular-session close.
-- **Distance (%):** `(CurrentPrice - 52wkHigh_T-1D) / 52wkHigh_T-1D * 100`. Negative = below the high; positive = above the high.
-- **Yesterday was 52w High (T/F):** `True` if `T-1D Close >= 52wkHigh_T-2D` (yesterday set or matched the prior 52wk high).
-- **Filter rule (which stocks appear):** keep stock if `Distance% >= -1.0` (i.e. within 1% below the high, at the high, or above).
+- **T-2D Close:** day-before-yesterday's regular-session close.
+- **Distance (%):** `(CurrentPrice - 52wkHigh_T-1D) / 52wkHigh_T-1D * 100`. (Values rounding to 0.00% are treated as positive).
+- **Chg (%):** `(CurrentPrice / T-1D Close - 1) * 100`.
+- **Ext (%):** `(Outside-RTH Price / T-1D Close - 1) * 100`.
+- **Yest 52w Hi? (T/F):** `True` if `T-1D Close >= 52wkHigh_T-2D`.
+- **T-2D 52w Hi? (T/F):** `True` if `T-2D Close >= 52wkHigh_T-3D`.
+- **Filter rules:** 
+  1. Keep stock if `Distance% >= -1.0`.
+  2. (Optional) Exclude if `Yest 52w Hi?` is True.
+  3. (Optional) Exclude if `T-2D 52w Hi?` is True.
 
 ### Table columns (in order)
 
-| # | Column | Source | Sortable |
-|---|---|---|---|
-| 1 | Rank (Trend / Active) | live file → order from source list | yes |
-| 2 | Stock Name | live file (`shortName` from API) | yes |
-| 3 | Ticker | live file (clickable → Yahoo quote page) | yes |
-| 4 | Market Cap ($Bn) | live file → `marketCap` / 1e9, 2dp | yes |
-| 5 | Current Price | live file → `regularMarketPrice` | yes |
-| 6 | Outside-RTH Price | live file → most recent of `postMarketPrice` / `preMarketPrice`; with "Pre" / "Post" pill | **no** (display only) |
-| 7 | 52 wk High till T-1D | historic file → computed from `historical()` | yes |
-| 8 | Distance (%) | computed (current_price vs high_52wk_t1) | yes |
-| 9 | T-1D Close | historic file → last value of daily close series | yes |
-| 10 | 52wk High till T-2D | historic file → computed | yes |
-| 11 | Yesterday was 52w High (T/F) | historic file → computed | yes |
-| 12 | Yahoo link | rendered on Ticker cell as anchor | n/a |
+| # | Column | Source | Sortable | Default |
+|---|---|---|---|---|
+| 1 | Ticker | live | yes | visible |
+| 2 | Rank | live | yes | visible |
+| 3 | Name | live | yes | visible |
+| 4 | Mkt Cap $Bn | live | yes | visible |
+| 5 | Price | live | yes | visible |
+| 6 | Chg % | computed | yes | visible |
+| 7 | Ext-Hrs | live | no | visible |
+| 8 | Ext % | computed | yes | visible |
+| 9 | 52w Hi T-1D | historic | yes | visible |
+| 10 | Dist % | computed | yes | visible |
+| 11 | T-1D Close | historic | yes | visible |
+| 12 | 52w Hi T-2D | historic | yes | **hidden** |
+| 13 | Yest 52w Hi? | historic | yes | visible |
+| 14 | T-2D Close | historic | yes | visible |
+| 15 | 52w Hi T-3D | historic | yes | **hidden** |
+| 16 | T-2D 52w Hi? | historic | yes | visible |
+
 
 **Outside-RTH column logic:** if both `postMarketPrice` and `preMarketPrice` exist, pick whichever has the larger of `postMarketTime` / `preMarketTime` (Unix timestamp). If only one exists, show that. If neither exists, show "—". Add a small "Pre" / "Post" pill next to the value so the user knows which session it's from.
 
@@ -243,8 +256,11 @@ Yf_TrendTop/
     "NVDA": {
       "high_52wk_t1": 985.10,
       "high_52wk_t2": 985.10,
+      "high_52wk_t3": 980.00,
       "t1_close": 980.20,
+      "t2_close": 975.00,
       "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-04-26"
     },
     "TSLA": { ... }

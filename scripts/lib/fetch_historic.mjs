@@ -27,16 +27,23 @@ export async function fetchHistoric(tickers) {
     const closes = cleaned.map(r => r.close).filter(c => c != null);
 
     const t1_close = closes[closes.length - 1];
+    const t2_close = closes[closes.length - 2];
     const high_52wk_t1 = Math.max(...closes.slice(-252));
-    const high_52wk_t2 = Math.max(...closes.slice(-252, -1));
+    const high_52wk_t2 = Math.max(...closes.slice(-253, -1));
+    const high_52wk_t3 = Math.max(...closes.slice(-254, -2));
+    
     const yesterday_was_52w_high = t1_close >= high_52wk_t2;
+    const t2_was_52w_high = t2_close >= high_52wk_t3;
     const cached_for_trading_date = getTradingDate(cleaned);
 
     result[ticker] = {
       high_52wk_t1,
       high_52wk_t2,
+      high_52wk_t3,
       t1_close,
+      t2_close,
       yesterday_was_52w_high,
+      t2_was_52w_high,
       cached_for_trading_date,
     };
   }

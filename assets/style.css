@@ -1,3 +1,7 @@
+/* ── Theme Icons ── */
+#theme-toggle::before { content: '☀️'; }
+[data-theme='dark'] #theme-toggle::before { content: '🌙'; }
+
 /* ── Header ── */
 header {
   border-bottom: 1px solid var(--pico-border-color);
@@ -87,8 +91,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: 1rem;
   margin-bottom: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.controls-left {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
   flex-wrap: wrap;
 }
 
@@ -97,25 +108,96 @@ header {
   color: var(--pico-muted-color);
 }
 
-.controls-right {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  flex-wrap: wrap;
+.btn-refresh {
+  width: auto;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.82rem;
+  margin: 0;
 }
 
-.filter-label {
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Filter toggle buttons */
+.filter-toggle {
   display: flex;
   align-items: center;
   gap: 0.4rem;
   font-size: 0.82rem;
   cursor: pointer;
   margin: 0;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--pico-border-color);
+  border-radius: var(--pico-border-radius);
+  background: transparent;
+  transition: background 0.2s, border-color 0.2s;
 }
 
-.filter-label input[type="checkbox"] {
+.filter-toggle:has(input:checked) {
+  border-color: var(--pico-primary);
+  background: rgba(var(--pico-primary-rgb), 0.05);
+}
+
+.filter-toggle input[type="checkbox"] {
   margin: 0;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+/* Fix for the blue active state sticking */
+.filter-toggle input[type="checkbox"]:focus {
+  box-shadow: none;
+}
+
+/* ── Column Picker ── */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.col-btn {
   width: auto;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.82rem;
+  margin: 0;
+}
+
+.col-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 5px);
+  z-index: 100;
+  background: var(--pico-background-color);
+  border: 1px solid var(--pico-border-color);
+  border-radius: var(--pico-border-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem;
+  min-width: 180px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.col-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+.col-item:hover {
+  background: var(--pico-secondary-hover-background);
+}
+
+.col-item input {
+  margin: 0;
+  width: 0.9rem;
+  height: 0.9rem;
 }
 
 /* ── Table wrapper ── */
@@ -126,13 +208,25 @@ header {
 
 /* ── Table ── */
 #main-table {
-  white-space: nowrap;
   font-size: 0.82rem;
   margin: 0;
 }
 
+#main-table td {
+  white-space: nowrap;
+}
+
+#main-table th {
+  white-space: normal;
+  vertical-align: bottom;
+  line-height: 1.1;
+  padding-bottom: 0.5rem;
+  min-width: 60px;
+  max-width: 100px; /* Encourage wrapping on longer headers */
+}
+
 /* Sticky first column */
-#main-table thead th:first-child {
+#main-table thead th.sticky-col {
   position: sticky;
   left: 0;
   z-index: 2;
@@ -170,6 +264,11 @@ th[data-col].sort-desc::after {
   opacity: 1;
 }
 
+/* Column hiding */
+.hidden-col {
+  display: none !important;
+}
+
 /* Ticker cell */
 .col-ticker a {
   text-decoration: none;
@@ -198,8 +297,13 @@ th[data-col].sort-desc::after {
 .rth-pill.post { background: #f59e0b; color: #000; }
 
 /* Distance % colours */
-.dist-pos  { color: #22c55e; font-weight: 600; }
-.dist-near { color: #f59e0b; }
+.val-pos  { color: #22c55e; font-weight: 600; }
+.val-near { color: #f59e0b; }
+.val-neg  { color: #ef4444; }
+
+/* Flag icons */
+.flag-true { color: #3b82f6; font-weight: bold; font-size: 1.1em; }
+.flag-false { color: var(--pico-muted-color); opacity: 0.4; }
 
 /* Message / empty state */
 .msg-cell {
@@ -217,3 +321,5 @@ th[data-col].sort-desc::after {
   margin-top: 0.4rem;
   margin-bottom: 0;
 }
+
+.hidden { display: none !important; }

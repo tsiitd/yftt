@@ -112,10 +112,10 @@ Why two new files vs the original plan:
   - Returns: full live JSON object `{ source_id, source_label, source_url, last_updated_iso, fetched_count, rows }`
   - Verify: `node -e "import('./scripts/lib/fetch_list.mjs').then(m => m.fetchList('trending').then(r => console.log(r.rows.slice(0,2))))"` prints 2 rows with all fields
 
-- [ ] **2.4 `scripts/lib/fetch_historic.mjs`** — fetch history + compute the 3 historic fields per ticker
-  - NOTE: `historical()` is deprecated in v3 (Yahoo removed underlying API); library auto-maps to `chart()`. Works correctly.
-  - NOTE: `tradingDateForCache` is derived internally from the fetched rows — no external parameter needed.
-  - Verify: passed ✓ (NVDA: high=216.61, t1_close=216.61, yesterday_was_52w_high=true; TSLA: high=489.88)
+- [x] **2.4 `scripts/lib/fetch_historic.mjs`** — fetch history + compute the 8 historic fields per ticker
+  - Updated to include: `high_52wk_t1/t2/t3`, `t1_close`, `t2_close`, `yesterday_was_52w_high`, `t2_was_52w_high`.
+  - Corrected slice logic for 252-day windows.
+  - Verify: passed ✓
 
 - [x] **2.5 `scripts/lib/trading_date.mjs`** — derive T-1D trading date from a `historical()` response
   - Verify: passed ✓
@@ -149,9 +149,9 @@ Why two new files vs the original plan:
   - Theme toggle button (top right, icon-only)
   - Tab buttons: "Trending (25)" (default) | "Most Active (50)"
   - Banner area (for stale / market-closed messages)
-  - "Last updated" text + Refresh button + filter toggle in controls row
-  - Filter: "Exclude if Yesterday was 52wk High" checkbox (default ON, per-tab state)
-  - `<table>` with 11-column `<thead>` (Ticker sticky-first); `<tbody>` populated by JS
+  - "Last updated" text + Refresh button + filter group in controls row
+  - Filter: "Exclude Yest 52w Hi" and "Exclude T-2D 52w Hi" (default OFF)
+  - `<table>` with 16-column `<thead>` (Ticker sticky-first); `<tbody>` populated by JS
   - `<script src="assets/script.js" type="module"></script>`
   - Verify: server running at http://localhost:3000 — all assets return 200 ✓
 
@@ -161,20 +161,18 @@ Why two new files vs the original plan:
   - Tab styling (active: primary background; inactive: outline border)
   - Banner styles: `.banner.warning` (amber rgba bg + left border), `.banner.neutral` (grey rgba bg)
   - Outside-RTH "Pre" (blue pill) / "Post" (amber pill) styling
-  - Mobile-first: `overflow-x: auto` table wrapper, `white-space: nowrap` on table
+  - Mobile-first: `overflow-x: auto` table wrapper, `white-space: nowrap` on data cells
+  - Header wrapping (`white-space: normal`) to minimize column width
   - Verify: visual check ✓
 
 - [x] **3.3 `assets/script.js`** — application logic
-  - STATE: per-tab sort (`distance_pct` desc default) + per-tab `filterYestHigh` (true default)
-  - `loadData(tab)`: parallel fetch of live + historic; both cached in STATE
-  - `joinAndFilter(tab)`: merges historic fields, computes `distance_pct`, applies distance + yest-high filters
-  - `renderTable(rows, tab)`: DocumentFragment build, RTH pill HTML, distance colour classes
-  - `sortRows(rows, tab)`: handles booleans, nulls, strings, numbers
-  - `checkStale(tab)`: warning banner if >1hr old AND `isMarketOpen()`; neutral "Markets closed" banner otherwise
-  - `isMarketOpen()`: DST-safe via `Intl.DateTimeFormat` with `timeZone: 'America/New_York'`
-  - `setupTabs/Refresh/Filter/Sort/Theme()` all wired up; tab switch syncs checkbox + sort headers
-  - Error handling: try/catch in all async paths shows error message in table
-  - Logic verified: 9 most_actives stocks pass distance filter (all `yesterday_was_52w_high: true`); with filter ON → empty state; with filter OFF → 9 rows ✓
+  - STATE: per-tab sort, per-tab filters, hidden columns set.
+  - `loadData(tab, force)`: parallel fetch of live + historic with cache-busting.
+  - `joinAndFilter(tab)`: merges historic fields, computes `distance_pct`, `change_pct`, `ext_hr_change_pct`.
+  - `renderTable(rows, tab)`: dynamic visibility based on `hiddenCols`, color classes with EPS tolerance.
+  - `setupTabs/Refresh/Filters/Sort/Theme/ColPicker()` all wired up.
+  - Refresh button reloads BOTH tabs.
+  - Logic verified: EPS tolerance handles negative zero; flags colored blue/grey ✓
 
 - [x] **3.4 `robots.txt`**
   - Content: `User-agent: *` / `Disallow: /`
@@ -182,6 +180,20 @@ Why two new files vs the original plan:
 
 - [x] **3.5 `README.md`** — minimal: project description, live URL, auto-update note, link to context.md
   - Verify: file exists ✓
+
+---
+
+## Phase 3.5 — Debug & Polish (Completed)
+
+- [x] **3.5.1 Enhanced Historic Data** — T-2D Close, 52w High T-3D, T-2D flag.
+- [x] **3.5.2 Column Picker** — Dropdown menu to toggle visibility of all 16 columns.
+- [x] **3.5.3 Advanced Filters** — "Exclude Yest 52w Hi" and "Exclude T-2D 52w Hi" (default OFF).
+- [x] **3.5.4 Visual Polish** 
+  - Blue/Grey flag icons (✓/✗).
+  - EPS tolerance (0.00001) for green/orange/red coloring (no more red 0.00%).
+  - Header wrapping to minimize column width.
+  - Concise header names (Chg %, Ext %, 52w Hi).
+- [x] **3.5.5 Control Layout** — Refresh button left-aligned, filters grouped.
 
 ---
 

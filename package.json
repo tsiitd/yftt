@@ -9,8 +9,8 @@
     "refresh:eod": "node scripts/refresh_historic.mjs"
   },
   "repository": {
-    type: "git",
-    url: "git+https://github.com/tsiitd/yftt.git"
+    "type": "git",
+    "url": "git+https://github.com/tsiitd/yftt.git"
   },
   "license": "ISC",
   "dependencies": {

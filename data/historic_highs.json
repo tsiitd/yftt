@@ -740,6 +740,16 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-04-28"
+    },
+    "DOGE-USD": {
+      "high_52wk_t1": 0.28946399688720703,
+      "high_52wk_t2": 0.28946399688720703,
+      "high_52wk_t3": 0.28946399688720703,
+      "t1_close": 0.09897799789905548,
+      "t2_close": 0.09928900003433228,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-27"
     }
   }
 }

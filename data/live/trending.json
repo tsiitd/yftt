@@ -2,7 +2,7 @@
   "source_id": "trending",
   "source_label": "Trending",
   "source_url": "https://finance.yahoo.com/markets/stocks/trending/",
-  "last_updated_iso": "2026-04-29T05:19:45.291Z",
+  "last_updated_iso": "2026-04-29T07:37:32.244Z",
   "fetched_count": 25,
   "rows": [
     {
@@ -20,8 +20,8 @@
       "rank": 2,
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "current_price": 77232.47,
-      "market_cap_bn": 1545.61,
+      "current_price": 77118.02,
+      "market_cap_bn": 1543.74,
       "outside_rth_price": null,
       "outside_rth_side": null,
       "outside_rth_time_iso": null,
@@ -40,17 +40,6 @@
     },
     {
       "rank": 4,
-      "ticker": "BBAI",
-      "name": "BigBear.ai, Inc.",
-      "current_price": 4.12,
-      "market_cap_bn": 1.96,
-      "outside_rth_price": 4.2287,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/BBAI"
-    },
-    {
-      "rank": 5,
       "ticker": "V",
       "name": "Visa Inc.",
       "current_price": 309.3,
@@ -59,6 +48,17 @@
       "outside_rth_side": "Post",
       "outside_rth_time_iso": "2026-04-28T23:59:57.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/V"
+    },
+    {
+      "rank": 5,
+      "ticker": "BBAI",
+      "name": "BigBear.ai, Inc.",
+      "current_price": 4.12,
+      "market_cap_bn": 1.96,
+      "outside_rth_price": 4.2287,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:59:59.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/BBAI"
     },
     {
       "rank": 6,
@@ -73,17 +73,6 @@
     },
     {
       "rank": 7,
-      "ticker": "SBUX",
-      "name": "Starbucks Corporation",
-      "current_price": 97.28,
-      "market_cap_bn": 110.83,
-      "outside_rth_price": 102.68,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:58.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SBUX"
-    },
-    {
-      "rank": 8,
       "ticker": "WDC",
       "name": "Western Digital Corporation",
       "current_price": 390.99,
@@ -94,11 +83,22 @@
       "yahoo_url": "https://finance.yahoo.com/quote/WDC"
     },
     {
+      "rank": 8,
+      "ticker": "TTE",
+      "name": "TotalEnergies SE",
+      "current_price": 91.03,
+      "market_cap_bn": 194.06,
+      "outside_rth_price": 92.396,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:57:36.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TTE"
+    },
+    {
       "rank": 9,
       "ticker": "ETH-USD",
       "name": "Ethereum USD",
-      "current_price": 2325.46,
-      "market_cap_bn": 280.52,
+      "current_price": 2328.57,
+      "market_cap_bn": 280.84,
       "outside_rth_price": null,
       "outside_rth_side": null,
       "outside_rth_time_iso": null,
@@ -106,39 +106,17 @@
     },
     {
       "rank": 10,
-      "ticker": "VRT",
-      "name": "Vertiv Holdings, LLC",
-      "current_price": 305.03,
-      "market_cap_bn": 117.16,
-      "outside_rth_price": 305.87,
+      "ticker": "NIO",
+      "name": "NIO Inc.",
+      "current_price": 6.36,
+      "market_cap_bn": 15.94,
+      "outside_rth_price": 6.37,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/VRT"
+      "outside_rth_time_iso": "2026-04-28T23:59:54.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/NIO"
     },
     {
       "rank": 11,
-      "ticker": "ON",
-      "name": "ON Semiconductor Corporation",
-      "current_price": 93.3,
-      "market_cap_bn": 36.7,
-      "outside_rth_price": 99.27,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:40.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/ON"
-    },
-    {
-      "rank": 12,
-      "ticker": "ENPH",
-      "name": "Enphase Energy, Inc.",
-      "current_price": 34.3,
-      "market_cap_bn": 4.52,
-      "outside_rth_price": 30.53,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:58.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/ENPH"
-    },
-    {
-      "rank": 13,
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
       "current_price": 381.11,
@@ -149,51 +127,7 @@
       "yahoo_url": "https://finance.yahoo.com/quote/AMAT"
     },
     {
-      "rank": 14,
-      "ticker": "NXPI",
-      "name": "NXP Semiconductors N.V.",
-      "current_price": 230.39,
-      "market_cap_bn": 58.18,
-      "outside_rth_price": 267.805,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:45.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/NXPI"
-    },
-    {
-      "rank": 15,
-      "ticker": "XRP-USD",
-      "name": "XRP USD",
-      "current_price": 1.3942,
-      "market_cap_bn": 86,
-      "outside_rth_price": null,
-      "outside_rth_side": null,
-      "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/XRP-USD"
-    },
-    {
-      "rank": 16,
-      "ticker": "TER",
-      "name": "Teradyne, Inc.",
-      "current_price": 380.13,
-      "market_cap_bn": 59.51,
-      "outside_rth_price": 349.7712,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:51.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/TER"
-    },
-    {
-      "rank": 17,
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "current_price": 1010.5,
-      "market_cap_bn": 23.97,
-      "outside_rth_price": 1125,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:57.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/FICO"
-    },
-    {
-      "rank": 18,
+      "rank": 12,
       "ticker": "BKNG",
       "name": "Booking Holdings Inc. Common St",
       "current_price": 173.38,
@@ -204,40 +138,51 @@
       "yahoo_url": "https://finance.yahoo.com/quote/BKNG"
     },
     {
-      "rank": 19,
-      "ticker": "UPS",
-      "name": "United Parcel Service, Inc.",
-      "current_price": 103.94,
-      "market_cap_bn": 88.32,
-      "outside_rth_price": 104.12,
+      "rank": 13,
+      "ticker": "VRT",
+      "name": "Vertiv Holdings, LLC",
+      "current_price": 305.03,
+      "market_cap_bn": 117.16,
+      "outside_rth_price": 305.87,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:55:13.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/UPS"
+      "outside_rth_time_iso": "2026-04-28T23:59:59.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/VRT"
     },
     {
-      "rank": 20,
-      "ticker": "SIMO",
-      "name": "Silicon Motion Technology Corpo",
-      "current_price": 149.18,
-      "market_cap_bn": 5.07,
-      "outside_rth_price": 183,
+      "rank": 14,
+      "ticker": "ENPH",
+      "name": "Enphase Energy, Inc.",
+      "current_price": 34.3,
+      "market_cap_bn": 4.52,
+      "outside_rth_price": 30.53,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:45.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SIMO"
+      "outside_rth_time_iso": "2026-04-28T23:59:58.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/ENPH"
     },
     {
-      "rank": 21,
-      "ticker": "ALGN",
-      "name": "Align Technology, Inc.",
-      "current_price": 177.28,
-      "market_cap_bn": 12.7,
-      "outside_rth_price": 180.76,
+      "rank": 15,
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "current_price": 380.13,
+      "market_cap_bn": 59.51,
+      "outside_rth_price": 349.7712,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:56:47.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/ALGN"
+      "outside_rth_time_iso": "2026-04-28T23:59:51.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TER"
     },
     {
-      "rank": 22,
+      "rank": 16,
+      "ticker": "SBUX",
+      "name": "Starbucks Corporation",
+      "current_price": 97.28,
+      "market_cap_bn": 110.83,
+      "outside_rth_price": 102.68,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:59:58.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/SBUX"
+    },
+    {
+      "rank": 17,
       "ticker": "MA",
       "name": "Mastercard Incorporated",
       "current_price": 507.62,
@@ -248,37 +193,92 @@
       "yahoo_url": "https://finance.yahoo.com/quote/MA"
     },
     {
-      "rank": 23,
-      "ticker": "CNC",
-      "name": "Centene Corporation",
-      "current_price": 49.57,
-      "market_cap_bn": 24.48,
-      "outside_rth_price": 49.6,
+      "rank": 18,
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors N.V.",
+      "current_price": 230.39,
+      "market_cap_bn": 58.18,
+      "outside_rth_price": 267.805,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:24.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/CNC"
+      "outside_rth_time_iso": "2026-04-28T23:59:45.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/NXPI"
     },
     {
-      "rank": 24,
-      "ticker": "DOGE-USD",
-      "name": "Dogecoin USD",
-      "current_price": 0.1018,
-      "market_cap_bn": 17.28,
+      "rank": 19,
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "current_price": 1010.5,
+      "market_cap_bn": 23.97,
+      "outside_rth_price": 1125,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:59:57.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/FICO"
+    },
+    {
+      "rank": 20,
+      "ticker": "ON",
+      "name": "ON Semiconductor Corporation",
+      "current_price": 93.3,
+      "market_cap_bn": 36.7,
+      "outside_rth_price": 99.27,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:59:40.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/ON"
+    },
+    {
+      "rank": 21,
+      "ticker": "XRP-USD",
+      "name": "XRP USD",
+      "current_price": 1.394,
+      "market_cap_bn": 85.95,
       "outside_rth_price": null,
       "outside_rth_side": null,
       "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/DOGE-USD"
+      "yahoo_url": "https://finance.yahoo.com/quote/XRP-USD"
+    },
+    {
+      "rank": 22,
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "current_price": 18.36,
+      "market_cap_bn": 23.41,
+      "outside_rth_price": 18.47,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:59:53.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/SOFI"
+    },
+    {
+      "rank": 23,
+      "ticker": "UPS",
+      "name": "United Parcel Service, Inc.",
+      "current_price": 103.94,
+      "market_cap_bn": 88.32,
+      "outside_rth_price": 104.12,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:55:13.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/UPS"
+    },
+    {
+      "rank": 24,
+      "ticker": "ALGN",
+      "name": "Align Technology, Inc.",
+      "current_price": 177.28,
+      "market_cap_bn": 12.7,
+      "outside_rth_price": 180.76,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-04-28T23:56:47.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/ALGN"
     },
     {
       "rank": 25,
-      "ticker": "NIO",
-      "name": "NIO Inc.",
-      "current_price": 6.36,
-      "market_cap_bn": 15.94,
-      "outside_rth_price": 6.37,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-04-28T23:59:54.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/NIO"
+      "ticker": "9888.HK",
+      "name": "BIDU-SW",
+      "current_price": 119.1,
+      "market_cap_bn": 324.19,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/9888.HK"
     }
   ]
 }

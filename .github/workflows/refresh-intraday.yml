@@ -2,7 +2,7 @@ name: Refresh Intraday Data
 
 on:
   schedule:
-    - cron: '*/15 2-21 * * 1-5' # Every 15 min, 02:00-21:45 UTC, Mon-Fri
+    - cron: '*/30 2-21 * * 1-5' # Every 30 min, 09:00-21:30 UTC, Mon-Fri
   workflow_dispatch:           # Manual trigger
 
 concurrency:

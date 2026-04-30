@@ -1138,6 +1138,66 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-04-29"
+    },
+    "AXSM": {
+      "high_52wk_t1": 189.10000610351562,
+      "high_52wk_t2": 189.10000610351562,
+      "high_52wk_t3": 189.10000610351562,
+      "t1_close": 183.9499969482422,
+      "t2_close": 185,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "MPT": {
+      "high_52wk_t1": 6.019999980926514,
+      "high_52wk_t2": 6.019999980926514,
+      "high_52wk_t3": 6.019999980926514,
+      "t1_close": 5.130000114440918,
+      "t2_close": 5.170000076293945,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "ETN": {
+      "high_52wk_t1": 424.5,
+      "high_52wk_t2": 424.5,
+      "high_52wk_t3": 424.5,
+      "t1_close": 410.7699890136719,
+      "t2_close": 413.07000732421875,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "RXRX": {
+      "high_52wk_t1": 6.789999961853027,
+      "high_52wk_t2": 6.789999961853027,
+      "high_52wk_t3": 6.789999961853027,
+      "t1_close": 3.299999952316284,
+      "t2_close": 3.4100000858306885,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "MA": {
+      "high_52wk_t1": 598.9600219726562,
+      "high_52wk_t2": 598.9600219726562,
+      "high_52wk_t3": 598.9600219726562,
+      "t1_close": 525.22998046875,
+      "t2_close": 507.6199951171875,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "OSRH": {
+      "high_52wk_t1": 1.6699999570846558,
+      "high_52wk_t2": 1.6699999570846558,
+      "high_52wk_t3": 1.6699999570846558,
+      "t1_close": 0.46000000834465027,
+      "t2_close": 0.7440000176429749,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
     }
   }
 }

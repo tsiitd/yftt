@@ -749,6 +749,46 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-04-29"
+    },
+    "BTC-USD": {
+      "high_52wk_t1": 124752.53125,
+      "high_52wk_t2": 124752.53125,
+      "high_52wk_t3": 124752.53125,
+      "t1_close": 75776.1328125,
+      "t2_close": 76350.671875,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "^IBEX": {
+      "high_52wk_t1": 18496.599609375,
+      "high_52wk_t2": 18496.599609375,
+      "high_52wk_t3": 18496.599609375,
+      "t1_close": 17642.80078125,
+      "t2_close": 17774.900390625,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "STLA": {
+      "high_52wk_t1": 12.119999885559082,
+      "high_52wk_t2": 12.119999885559082,
+      "high_52wk_t3": 12.119999885559082,
+      "t1_close": 7.699999809265137,
+      "t2_close": 7.860000133514404,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
+    },
+    "STLAM.MI": {
+      "high_52wk_t1": 10.413999557495117,
+      "high_52wk_t2": 10.413999557495117,
+      "high_52wk_t3": 10.413999557495117,
+      "t1_close": 6.63100004196167,
+      "t2_close": 6.695000171661377,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-04-29"
     }
   }
 }

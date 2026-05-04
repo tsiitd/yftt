@@ -739,6 +739,66 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-01"
+    },
+    "XNDU": {
+      "high_52wk_t1": 36.119998931884766,
+      "high_52wk_t2": 34.75,
+      "high_52wk_t3": 34.75,
+      "t1_close": 36.119998931884766,
+      "t2_close": 29.100000381469727,
+      "yesterday_was_52w_high": true,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-01"
+    },
+    "CNSP": {
+      "high_52wk_t1": 16.31999969482422,
+      "high_52wk_t2": 16.31999969482422,
+      "high_52wk_t3": 16.31999969482422,
+      "t1_close": 2.311000108718872,
+      "t2_close": 2.2699999809265137,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-01"
+    },
+    "NQ=F": {
+      "high_52wk_t1": 27835.75,
+      "high_52wk_t2": 27596,
+      "high_52wk_t3": 27440.5,
+      "t1_close": 27835.75,
+      "t2_close": 27596,
+      "yesterday_was_52w_high": true,
+      "t2_was_52w_high": true,
+      "cached_for_trading_date": "2026-05-01"
+    },
+    "TSN": {
+      "high_52wk_t1": 65.75,
+      "high_52wk_t2": 65.75,
+      "high_52wk_t3": 65.75,
+      "t1_close": 63.68000030517578,
+      "t2_close": 64.06999969482422,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-01"
+    },
+    "CL=F": {
+      "high_52wk_t1": 112.94999694824219,
+      "high_52wk_t2": 112.94999694824219,
+      "high_52wk_t3": 112.94999694824219,
+      "t1_close": 101.94000244140625,
+      "t2_close": 105.06999969482422,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-01"
+    },
+    "OUST": {
+      "high_52wk_t1": 37.08000183105469,
+      "high_52wk_t2": 37.08000183105469,
+      "high_52wk_t3": 37.08000183105469,
+      "t1_close": 26.450000762939453,
+      "t2_close": 26.959999084472656,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-01"
     }
   }
 }

@@ -2,7 +2,7 @@
   "source_id": "most_actives",
   "source_label": "Most Active",
   "source_url": "https://finance.yahoo.com/research-hub/screener/most_actives/?start=0&count=50",
-  "last_updated_iso": "2026-05-04T08:33:23.883Z",
+  "last_updated_iso": "2026-05-04T11:06:48.462Z",
   "fetched_count": 50,
   "rows": [
     {
@@ -11,9 +11,9 @@
       "name": "Intel Corporation",
       "current_price": 99.61,
       "market_cap_bn": 500.64,
-      "outside_rth_price": 100.5,
+      "outside_rth_price": 99.1052,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:20.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/INTC"
     },
     {
@@ -22,9 +22,9 @@
       "name": "Nokia Corporation Sponsored",
       "current_price": 13.3,
       "market_cap_bn": 74.25,
-      "outside_rth_price": 13.2805,
+      "outside_rth_price": 13.37,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:21.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:44.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NOK"
     },
     {
@@ -33,9 +33,9 @@
       "name": "NVIDIA Corporation",
       "current_price": 198.45,
       "market_cap_bn": 4823.33,
-      "outside_rth_price": 199.43,
+      "outside_rth_price": 198.1,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:22.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:47.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NVDA"
     },
     {
@@ -44,9 +44,9 @@
       "name": "Grab Holdings Limited",
       "current_price": 3.67,
       "market_cap_bn": 15.05,
-      "outside_rth_price": 3.69,
+      "outside_rth_price": 3.6465,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:58.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:26.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/GRAB"
     },
     {
@@ -55,9 +55,9 @@
       "name": "Apple Inc.",
       "current_price": 280.25,
       "market_cap_bn": 4110.62,
-      "outside_rth_price": 279.6988,
+      "outside_rth_price": 279.12,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:14.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/AAPL"
     },
     {
@@ -66,9 +66,9 @@
       "name": "SoFi Technologies, Inc.",
       "current_price": 16.43,
       "market_cap_bn": 21.05,
-      "outside_rth_price": 16.62,
+      "outside_rth_price": 16.46,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:35.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:37.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/SOFI"
     },
     {
@@ -77,9 +77,9 @@
       "name": "SoundHound AI, Inc.",
       "current_price": 9.56,
       "market_cap_bn": 4.07,
-      "outside_rth_price": 9.71,
+      "outside_rth_price": 9.47,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:16.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:43.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/SOUN"
     },
     {
@@ -88,9 +88,9 @@
       "name": "Tesla, Inc.",
       "current_price": 390.82,
       "market_cap_bn": 1467.81,
-      "outside_rth_price": 392.39,
+      "outside_rth_price": 388.88,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:11.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/TSLA"
     },
     {
@@ -99,9 +99,9 @@
       "name": "NIO Inc.",
       "current_price": 5.91,
       "market_cap_bn": 14.81,
-      "outside_rth_price": 6.06,
+      "outside_rth_price": 6.01,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:50.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NIO"
     },
     {
@@ -110,9 +110,9 @@
       "name": "Rivian Automotive, Inc.",
       "current_price": 15.02,
       "market_cap_bn": 19.88,
-      "outside_rth_price": 15.11,
+      "outside_rth_price": 15.0504,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:29:14.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:40.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/RIVN"
     },
     {
@@ -121,9 +121,9 @@
       "name": "Roblox Corporation",
       "current_price": 45.13,
       "market_cap_bn": 32.3,
-      "outside_rth_price": 45.7709,
+      "outside_rth_price": 45.1208,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:18.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:41.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/RBLX"
     },
     {
@@ -132,9 +132,9 @@
       "name": "Blue Owl Capital Inc.",
       "current_price": 9.98,
       "market_cap_bn": 15.62,
-      "outside_rth_price": 10.1,
+      "outside_rth_price": 10.05,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:26:25.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:22.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/OWL"
     },
     {
@@ -143,9 +143,9 @@
       "name": "Ford Motor Company",
       "current_price": 11.88,
       "market_cap_bn": 47.65,
-      "outside_rth_price": 11.9,
+      "outside_rth_price": 11.875,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:44.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/F"
     },
     {
@@ -154,9 +154,9 @@
       "name": "MARA Holdings, Inc.",
       "current_price": 11.46,
       "market_cap_bn": 4.36,
-      "outside_rth_price": 11.73,
+      "outside_rth_price": 11.6487,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:53.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:45.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/MARA"
     },
     {
@@ -165,9 +165,9 @@
       "name": "Amazon.com, Inc.",
       "current_price": 268.42,
       "market_cap_bn": 2886.66,
-      "outside_rth_price": 268.09,
+      "outside_rth_price": 268.0837,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:57.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:41.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/AMZN"
     },
     {
@@ -176,9 +176,9 @@
       "name": "American Airlines Group, Inc.",
       "current_price": 11.845,
       "market_cap_bn": 7.83,
-      "outside_rth_price": 11.91,
+      "outside_rth_price": 11.74,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:16:48.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:18.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/AAL"
     },
     {
@@ -187,9 +187,9 @@
       "name": "Ondas Inc",
       "current_price": 10.32,
       "market_cap_bn": 5.03,
-      "outside_rth_price": 10.24,
+      "outside_rth_price": 10.2035,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:18.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:44.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/ONDS"
     },
     {
@@ -198,9 +198,9 @@
       "name": "Micron Technology, Inc.",
       "current_price": 542.21,
       "market_cap_bn": 611.47,
-      "outside_rth_price": 556.2,
+      "outside_rth_price": 556.83,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:18.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:43.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/MU"
     },
     {
@@ -209,9 +209,9 @@
       "name": "UiPath, Inc.",
       "current_price": 10.67,
       "market_cap_bn": 5.59,
-      "outside_rth_price": 10.7897,
+      "outside_rth_price": 10.69,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:28.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:05:06.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/PATH"
     },
     {
@@ -220,9 +220,9 @@
       "name": "Plug Power, Inc.",
       "current_price": 3.1,
       "market_cap_bn": 4.32,
-      "outside_rth_price": 3.1005,
+      "outside_rth_price": 3.09,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:14.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:43.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/PLUG"
     },
     {
@@ -231,9 +231,9 @@
       "name": "Snap Inc.",
       "current_price": 6.29,
       "market_cap_bn": 10.62,
-      "outside_rth_price": 6.3385,
+      "outside_rth_price": 6.2801,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:19.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:05:10.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/SNAP"
     },
     {
@@ -242,9 +242,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "current_price": 360.54,
       "market_cap_bn": 587.83,
-      "outside_rth_price": 364.28,
+      "outside_rth_price": 357.5,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:18.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:45.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/AMD"
     },
     {
@@ -253,9 +253,9 @@
       "name": "Palantir Technologies Inc.",
       "current_price": 144.07,
       "market_cap_bn": 345.36,
-      "outside_rth_price": 146.8,
+      "outside_rth_price": 147.47,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:07.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/PLTR"
     },
     {
@@ -264,9 +264,9 @@
       "name": "Riot Platforms, Inc.",
       "current_price": 18.5,
       "market_cap_bn": 7.01,
-      "outside_rth_price": 18.9362,
+      "outside_rth_price": 18.774,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:01.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:04:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/RIOT"
     },
     {
@@ -275,9 +275,9 @@
       "name": "B2Gold Corp",
       "current_price": 4.36,
       "market_cap_bn": 5.82,
-      "outside_rth_price": 4.34,
+      "outside_rth_price": 4.3303,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:16:15.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:03:24.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/BTG"
     },
     {
@@ -286,9 +286,9 @@
       "name": "Transocean Ltd (Switzerland)",
       "current_price": 6.84,
       "market_cap_bn": 7.57,
-      "outside_rth_price": 6.8514,
+      "outside_rth_price": 6.8475,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:28:07.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:04:40.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/RIG"
     },
     {
@@ -297,9 +297,9 @@
       "name": "Norwegian Cruise Line Holdings ",
       "current_price": 18.81,
       "market_cap_bn": 8.57,
-      "outside_rth_price": 19.08,
+      "outside_rth_price": 17.83,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:27:47.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:05.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NCLH"
     },
     {
@@ -308,9 +308,9 @@
       "name": "AT&T Inc.",
       "current_price": 26.12,
       "market_cap_bn": 181.49,
-      "outside_rth_price": 26.12,
+      "outside_rth_price": 26.11,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:05.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:03:57.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/T"
     },
     {
@@ -319,9 +319,9 @@
       "name": "Microsoft Corporation",
       "current_price": 414.195,
       "market_cap_bn": 3076.82,
-      "outside_rth_price": 413.6574,
+      "outside_rth_price": 412.76,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:50.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:44.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/MSFT"
     },
     {
@@ -330,9 +330,9 @@
       "name": "Archer Aviation Inc.",
       "current_price": 5.87,
       "market_cap_bn": 4.4,
-      "outside_rth_price": 5.9405,
+      "outside_rth_price": 5.87,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:29:47.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:05:19.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/ACHR"
     },
     {
@@ -341,9 +341,9 @@
       "name": "Netflix, Inc.",
       "current_price": 92.06,
       "market_cap_bn": 387.65,
-      "outside_rth_price": 91.8673,
+      "outside_rth_price": 91.85,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:03.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:24.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NFLX"
     },
     {
@@ -352,9 +352,9 @@
       "name": "Navitas Semiconductor Corporati",
       "current_price": 17.45,
       "market_cap_bn": 4.03,
-      "outside_rth_price": 17.95,
+      "outside_rth_price": 17.6012,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:49.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:28.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NVTS"
     },
     {
@@ -363,9 +363,9 @@
       "name": "Alphabet Inc.",
       "current_price": 385.69,
       "market_cap_bn": 4672.81,
-      "outside_rth_price": 387.6545,
+      "outside_rth_price": 385.7,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:20.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:44.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/GOOGL"
     },
     {
@@ -374,9 +374,9 @@
       "name": "BitMine Immersion Technologies,",
       "current_price": 21.88,
       "market_cap_bn": 12.46,
-      "outside_rth_price": 22.43,
+      "outside_rth_price": 22.1999,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:05.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:41.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/BMNR"
     },
     {
@@ -385,9 +385,9 @@
       "name": "Pfizer, Inc.",
       "current_price": 26.33,
       "market_cap_bn": 149.77,
-      "outside_rth_price": 26.4379,
+      "outside_rth_price": 26.4,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:23.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:47.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/PFE"
     },
     {
@@ -396,9 +396,9 @@
       "name": "Comcast Corporation",
       "current_price": 27.165,
       "market_cap_bn": 97.04,
-      "outside_rth_price": 27.18,
+      "outside_rth_price": 27.16,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:17:16.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/CMCSA"
     },
     {
@@ -407,9 +407,9 @@
       "name": "Aurora Innovation, Inc.",
       "current_price": 6.13,
       "market_cap_bn": 12.02,
-      "outside_rth_price": 6.11,
+      "outside_rth_price": 6.13,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:31:09.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:04:33.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/AUR"
     },
     {
@@ -418,9 +418,9 @@
       "name": "Stellantis N.V.",
       "current_price": 7.13,
       "market_cap_bn": 20.66,
-      "outside_rth_price": 7.28,
+      "outside_rth_price": 7.24,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:28:30.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:43.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/STLA"
     },
     {
@@ -429,9 +429,9 @@
       "name": "TeraWulf Inc.",
       "current_price": 21.31,
       "market_cap_bn": 10.5,
-      "outside_rth_price": 21.6757,
+      "outside_rth_price": 21.46,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:23.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:38.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/WULF"
     },
     {
@@ -440,9 +440,9 @@
       "name": "Alphabet Inc.",
       "current_price": 383.22,
       "market_cap_bn": 4635.81,
-      "outside_rth_price": 384.6,
+      "outside_rth_price": 382.9693,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:01.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:39.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/GOOG"
     },
     {
@@ -451,9 +451,9 @@
       "name": "Opendoor Technologies Inc",
       "current_price": 5.44,
       "market_cap_bn": 5.25,
-      "outside_rth_price": 5.46,
+      "outside_rth_price": 5.42,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:31:58.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:45.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/OPEN"
     },
     {
@@ -462,9 +462,9 @@
       "name": "CoreWeave, Inc.",
       "current_price": 119.01,
       "market_cap_bn": 62.86,
-      "outside_rth_price": 121.5,
+      "outside_rth_price": 121.39,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:21.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:33.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/CRWV"
     },
     {
@@ -473,9 +473,9 @@
       "name": "Atlassian Corporation",
       "current_price": 88.88,
       "market_cap_bn": 23.44,
-      "outside_rth_price": 89.63,
+      "outside_rth_price": 89.08,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:30:18.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:14.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/TEAM"
     },
     {
@@ -484,9 +484,9 @@
       "name": "Joby Aviation, Inc.",
       "current_price": 9.25,
       "market_cap_bn": 9.09,
-      "outside_rth_price": 9.3116,
+      "outside_rth_price": 9.1865,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:03.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:47.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/JOBY"
     },
     {
@@ -495,9 +495,9 @@
       "name": "Oracle Corporation",
       "current_price": 171.83,
       "market_cap_bn": 494.19,
-      "outside_rth_price": 175.6,
+      "outside_rth_price": 175.1,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:14.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:44.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/ORCL"
     },
     {
@@ -506,9 +506,9 @@
       "name": "Novo Nordisk A/S",
       "current_price": 43.88,
       "market_cap_bn": 194.57,
-      "outside_rth_price": 43.7042,
+      "outside_rth_price": 43.85,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:25.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:40.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NVO"
     },
     {
@@ -517,9 +517,9 @@
       "name": "IREN LIMITED",
       "current_price": 45.66,
       "market_cap_bn": 15.15,
-      "outside_rth_price": 47.1097,
+      "outside_rth_price": 46.74,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:33:13.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:46.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/IREN"
     },
     {
@@ -528,9 +528,9 @@
       "name": "Nu Holdings Ltd.",
       "current_price": 14.44,
       "market_cap_bn": 70.19,
-      "outside_rth_price": 14.52,
+      "outside_rth_price": 14.45,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:15.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:05:14.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/NU"
     },
     {
@@ -539,9 +539,9 @@
       "name": "Robinhood Markets, Inc.",
       "current_price": 73.66,
       "market_cap_bn": 66.33,
-      "outside_rth_price": 75.78,
+      "outside_rth_price": 74.85,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:32:58.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:47.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/HOOD"
     },
     {
@@ -550,9 +550,9 @@
       "name": "Super Micro Computer, Inc.",
       "current_price": 27.09,
       "market_cap_bn": 16.27,
-      "outside_rth_price": 27.44,
+      "outside_rth_price": 27.34,
       "outside_rth_side": "Pre",
-      "outside_rth_time_iso": "2026-05-04T08:29:38.000Z",
+      "outside_rth_time_iso": "2026-05-04T11:06:26.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/SMCI"
     }
   ]

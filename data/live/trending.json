@@ -2,7 +2,7 @@
   "source_id": "trending",
   "source_label": "Trending",
   "source_url": "https://finance.yahoo.com/markets/stocks/trending/",
-  "last_updated_iso": "2026-05-05T05:16:42.921Z",
+  "last_updated_iso": "2026-05-05T07:31:58.176Z",
   "fetched_count": 25,
   "rows": [
     {
@@ -18,14 +18,14 @@
     },
     {
       "rank": 2,
-      "ticker": "UPS",
-      "name": "United Parcel Service, Inc.",
-      "current_price": 96.31,
-      "market_cap_bn": 81.83,
-      "outside_rth_price": 96.2093,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/UPS"
+      "ticker": "BTC-USD",
+      "name": "Bitcoin USD",
+      "current_price": 80289.25,
+      "market_cap_bn": 1607.48,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/BTC-USD"
     },
     {
       "rank": 3,
@@ -40,6 +40,17 @@
     },
     {
       "rank": 4,
+      "ticker": "UPS",
+      "name": "United Parcel Service, Inc.",
+      "current_price": 96.31,
+      "market_cap_bn": 81.83,
+      "outside_rth_price": 96.2093,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/UPS"
+    },
+    {
+      "rank": 5,
       "ticker": "PINS",
       "name": "Pinterest, Inc.",
       "current_price": 20.85,
@@ -50,7 +61,18 @@
       "yahoo_url": "https://finance.yahoo.com/quote/PINS"
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "ticker": "ETH-USD",
+      "name": "Ethereum USD",
+      "current_price": 2361.34,
+      "market_cap_bn": 284.95,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/ETH-USD"
+    },
+    {
+      "rank": 7,
       "ticker": "FDX",
       "name": "FedEx Corporation",
       "current_price": 357.8,
@@ -61,7 +83,7 @@
       "yahoo_url": "https://finance.yahoo.com/quote/FDX"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "ticker": "FIG",
       "name": "Figma, Inc.",
       "current_price": 19.96,
@@ -72,95 +94,18 @@
       "yahoo_url": "https://finance.yahoo.com/quote/FIG"
     },
     {
-      "rank": 7,
-      "ticker": "TTWO",
-      "name": "Take-Two Interactive Software, ",
-      "current_price": 225.18,
-      "market_cap_bn": 41.7,
-      "outside_rth_price": 226,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:16:46.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/TTWO"
-    },
-    {
-      "rank": 8,
-      "ticker": "XNDU",
-      "name": "Xanadu Quantum Technologies Lim",
-      "current_price": 13.99,
-      "market_cap_bn": 4.75,
-      "outside_rth_price": 13.4017,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/XNDU"
-    },
-    {
       "rank": 9,
-      "ticker": "TSN",
-      "name": "Tyson Foods, Inc.",
-      "current_price": 68.75,
-      "market_cap_bn": 24.21,
-      "outside_rth_price": 68.8,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:17:41.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/TSN"
-    },
-    {
-      "rank": 10,
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure, Inc.",
-      "current_price": 529.49,
-      "market_cap_bn": 16.25,
-      "outside_rth_price": 634.01,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:18:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/STRL"
-    },
-    {
-      "rank": 11,
-      "ticker": "BTC-CAD",
-      "name": "Bitcoin CAD",
-      "current_price": 109388.15,
-      "market_cap_bn": 2190.34,
+      "ticker": "0005.HK",
+      "name": "HSBC HOLDINGS",
+      "current_price": 143.4,
+      "market_cap_bn": 2459.05,
       "outside_rth_price": null,
       "outside_rth_side": null,
       "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/BTC-CAD"
+      "yahoo_url": "https://finance.yahoo.com/quote/0005.HK"
     },
     {
-      "rank": 12,
-      "ticker": "SKK",
-      "name": "SKK Holdings Limited",
-      "current_price": 12.19,
-      "market_cap_bn": 0.03,
-      "outside_rth_price": 9.87,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:19.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SKK"
-    },
-    {
-      "rank": 13,
-      "ticker": "GBTG",
-      "name": "Global Business Travel Group, I",
-      "current_price": 9.34,
-      "market_cap_bn": 4.89,
-      "outside_rth_price": 9.37,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:28.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/GBTG"
-    },
-    {
-      "rank": 14,
-      "ticker": "AMC",
-      "name": "AMC Entertainment Holdings, Inc",
-      "current_price": 1.45,
-      "market_cap_bn": 0.89,
-      "outside_rth_price": 1.4797,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:00.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/AMC"
-    },
-    {
-      "rank": 15,
+      "rank": 10,
       "ticker": "GRAB",
       "name": "Grab Holdings Limited",
       "current_price": 3.62,
@@ -171,40 +116,106 @@
       "yahoo_url": "https://finance.yahoo.com/quote/GRAB"
     },
     {
-      "rank": 16,
-      "ticker": "FN",
-      "name": "Fabrinet",
-      "current_price": 717.8,
-      "market_cap_bn": 25.72,
-      "outside_rth_price": 639,
+      "rank": 11,
+      "ticker": "XNDU",
+      "name": "Xanadu Quantum Technologies Lim",
+      "current_price": 13.99,
+      "market_cap_bn": 4.75,
+      "outside_rth_price": 13.4017,
       "outside_rth_side": "Post",
       "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/FN"
+      "yahoo_url": "https://finance.yahoo.com/quote/XNDU"
+    },
+    {
+      "rank": 12,
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive Software, ",
+      "current_price": 225.18,
+      "market_cap_bn": 41.7,
+      "outside_rth_price": 226,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:16:46.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TTWO"
+    },
+    {
+      "rank": 13,
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "current_price": 119.53,
+      "market_cap_bn": 31.79,
+      "outside_rth_price": 122.1888,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRCL"
+    },
+    {
+      "rank": 14,
+      "ticker": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "current_price": 68.75,
+      "market_cap_bn": 24.21,
+      "outside_rth_price": 68.8,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:17:41.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TSN"
+    },
+    {
+      "rank": 15,
+      "ticker": "AMC",
+      "name": "AMC Entertainment Holdings, Inc",
+      "current_price": 1.45,
+      "market_cap_bn": 0.89,
+      "outside_rth_price": 1.4797,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:20:00.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMC"
+    },
+    {
+      "rank": 16,
+      "ticker": "STRL",
+      "name": "Sterling Infrastructure, Inc.",
+      "current_price": 529.49,
+      "market_cap_bn": 16.25,
+      "outside_rth_price": 634.01,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:18:59.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/STRL"
     },
     {
       "rank": 17,
-      "ticker": "WGS",
-      "name": "GeneDx Holdings Corp.",
-      "current_price": 67.93,
-      "market_cap_bn": 2.02,
-      "outside_rth_price": 41.5,
+      "ticker": "GBTG",
+      "name": "Global Business Travel Group, I",
+      "current_price": 9.34,
+      "market_cap_bn": 4.89,
+      "outside_rth_price": 9.37,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/WGS"
+      "outside_rth_time_iso": "2026-05-04T22:20:28.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/GBTG"
     },
     {
       "rank": 18,
-      "ticker": "HOG",
-      "name": "Harley-Davidson, Inc.",
-      "current_price": 23.21,
-      "market_cap_bn": 2.6,
-      "outside_rth_price": 23.5,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:19:06.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/HOG"
+      "ticker": "BTC-EUR",
+      "name": "Bitcoin EUR",
+      "current_price": 68687.28,
+      "market_cap_bn": 1375.17,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/BTC-EUR"
     },
     {
       "rank": 19,
+      "ticker": "SOL-USD",
+      "name": "Solana USD",
+      "current_price": 84.35,
+      "market_cap_bn": 48.67,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/SOL-USD"
+    },
+    {
+      "rank": 20,
       "ticker": "FLY",
       "name": "Firefly Aerospace Inc.",
       "current_price": 33.37,
@@ -215,7 +226,51 @@
       "yahoo_url": "https://finance.yahoo.com/quote/FLY"
     },
     {
-      "rank": 20,
+      "rank": 21,
+      "ticker": "BTC-CAD",
+      "name": "Bitcoin CAD",
+      "current_price": 109388.15,
+      "market_cap_bn": 2190.34,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/BTC-CAD"
+    },
+    {
+      "rank": 22,
+      "ticker": "WGS",
+      "name": "GeneDx Holdings Corp.",
+      "current_price": 67.93,
+      "market_cap_bn": 2.02,
+      "outside_rth_price": 41.5,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/WGS"
+    },
+    {
+      "rank": 23,
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "current_price": 717.8,
+      "market_cap_bn": 25.72,
+      "outside_rth_price": 639,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:20:31.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/FN"
+    },
+    {
+      "rank": 24,
+      "ticker": "OUST",
+      "name": "Ouster, Inc.",
+      "current_price": 28.15,
+      "market_cap_bn": 1.79,
+      "outside_rth_price": 29.06,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-04T22:17:41.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/OUST"
+    },
+    {
+      "rank": 25,
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "current_price": 429.85,
@@ -224,61 +279,6 @@
       "outside_rth_side": "Post",
       "outside_rth_time_iso": "2026-05-04T22:13:03.000Z",
       "yahoo_url": "https://finance.yahoo.com/quote/VRTX"
-    },
-    {
-      "rank": 21,
-      "ticker": "GFS",
-      "name": "GlobalFoundries Inc.",
-      "current_price": 67.75,
-      "market_cap_bn": 37.2,
-      "outside_rth_price": 69.2261,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:20:30.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/GFS"
-    },
-    {
-      "rank": 22,
-      "ticker": "HD",
-      "name": "Home Depot, Inc. (The)",
-      "current_price": 312.42,
-      "market_cap_bn": 311.18,
-      "outside_rth_price": 312.5,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:19:55.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/HD"
-    },
-    {
-      "rank": 23,
-      "ticker": "VCX",
-      "name": "VCX",
-      "current_price": 115,
-      "market_cap_bn": null,
-      "outside_rth_price": 118,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:18:17.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/VCX"
-    },
-    {
-      "rank": 24,
-      "ticker": "SHOP",
-      "name": "Shopify Inc.",
-      "current_price": 127.55,
-      "market_cap_bn": 165.61,
-      "outside_rth_price": 129.7435,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-04T22:19:49.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SHOP"
-    },
-    {
-      "rank": 25,
-      "ticker": "FSELX",
-      "name": "Fidelity Select Semiconductors ",
-      "current_price": 58.01,
-      "market_cap_bn": null,
-      "outside_rth_price": null,
-      "outside_rth_side": null,
-      "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/FSELX"
     }
   ]
 }

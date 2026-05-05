@@ -1289,6 +1289,36 @@
       "yesterday_was_52w_high": true,
       "t2_was_52w_high": true,
       "cached_for_trading_date": "2026-05-04"
+    },
+    "0005.HK": {
+      "high_52wk_t1": 147.3000030517578,
+      "high_52wk_t2": 147.3000030517578,
+      "high_52wk_t3": 147.3000030517578,
+      "t1_close": 143.39999389648438,
+      "t2_close": 140.1999969482422,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-04"
+    },
+    "BTC-EUR": {
+      "high_52wk_t1": 106538.1640625,
+      "high_52wk_t2": 106538.1640625,
+      "high_52wk_t3": 106538.1640625,
+      "t1_close": 68277.125,
+      "t2_close": 66980.1484375,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-04"
+    },
+    "SOL-USD": {
+      "high_52wk_t1": 247.6371307373047,
+      "high_52wk_t2": 247.6371307373047,
+      "high_52wk_t3": 247.6371307373047,
+      "t1_close": 84.08985900878906,
+      "t2_close": 83.89957427978516,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-04"
     }
   }
 }

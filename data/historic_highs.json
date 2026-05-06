@@ -1350,6 +1350,46 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-04"
+    },
+    "NVO": {
+      "high_52wk_t1": 81.05000305175781,
+      "high_52wk_t2": 81.05000305175781,
+      "high_52wk_t3": 81.05000305175781,
+      "t1_close": 44.869998931884766,
+      "t2_close": 44.38999938964844,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-05"
+    },
+    "NOVO-B.CO": {
+      "high_52wk_t1": 519.7999877929688,
+      "high_52wk_t2": 519.7999877929688,
+      "high_52wk_t3": 519.7999877929688,
+      "t1_close": 285.8999938964844,
+      "t2_close": 282.95001220703125,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-05"
+    },
+    "WKL.AS": {
+      "high_52wk_t1": 162.10000610351562,
+      "high_52wk_t2": 162.10000610351562,
+      "high_52wk_t3": 162.10000610351562,
+      "t1_close": 68.44000244140625,
+      "t2_close": 68.91999816894531,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-05"
+    },
+    "PNDORA.CO": {
+      "high_52wk_t1": 1219.5,
+      "high_52wk_t2": 1219.5,
+      "high_52wk_t3": 1219.5,
+      "t1_close": 497.6000061035156,
+      "t2_close": 500.3999938964844,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-05"
     }
   }
 }

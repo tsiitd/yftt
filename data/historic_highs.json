@@ -720,6 +720,16 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-06"
+    },
+    "OPEN": {
+      "high_52wk_t1": 10.520000457763672,
+      "high_52wk_t2": 10.520000457763672,
+      "high_52wk_t3": 10.520000457763672,
+      "t1_close": 5.460000038146973,
+      "t2_close": 5.230000019073486,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-06"
     }
   }
 }

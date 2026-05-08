@@ -19,6 +19,11 @@ export async function fetchHistoric(tickers) {
       return d.toISOString().slice(0, 10) !== todayStr;
     });
 
+    if (cleaned.length === 0) {
+      console.warn(`WARNING: ${ticker} returned 0 trading days — skipping (possible rate-limit or delisted ticker).`);
+      continue;
+    }
+
     if (cleaned.length < 200) {
       console.warn(`WARNING: ${ticker} only has ${cleaned.length} trading days — may be insufficient.`);
     }

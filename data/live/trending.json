@@ -2,7 +2,7 @@
   "source_id": "trending",
   "source_label": "Trending",
   "source_url": "https://finance.yahoo.com/markets/stocks/trending/",
-  "last_updated_iso": "2026-05-08T04:55:00.956Z",
+  "last_updated_iso": "2026-05-08T06:52:44.384Z",
   "fetched_count": 25,
   "rows": [
     {
@@ -18,14 +18,14 @@
     },
     {
       "rank": 2,
-      "ticker": "CRWV",
-      "name": "CoreWeave, Inc.",
-      "current_price": 128.84,
-      "market_cap_bn": 68.05,
-      "outside_rth_price": 116.9,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:56.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/CRWV"
+      "ticker": "BTC-USD",
+      "name": "Bitcoin USD",
+      "current_price": 79490.81,
+      "market_cap_bn": 1591.9,
+      "outside_rth_price": null,
+      "outside_rth_side": null,
+      "outside_rth_time_iso": null,
+      "yahoo_url": "https://finance.yahoo.com/quote/BTC-USD"
     },
     {
       "rank": 3,
@@ -40,14 +40,14 @@
     },
     {
       "rank": 4,
-      "ticker": "BTC-USD",
-      "name": "Bitcoin USD",
-      "current_price": 79614.695,
-      "market_cap_bn": 1594.38,
-      "outside_rth_price": null,
-      "outside_rth_side": null,
-      "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/BTC-USD"
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc.",
+      "current_price": 128.84,
+      "market_cap_bn": 68.05,
+      "outside_rth_price": 116.9,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:59:56.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRWV"
     },
     {
       "rank": 5,
@@ -62,17 +62,6 @@
     },
     {
       "rank": 6,
-      "ticker": "SOUN",
-      "name": "SoundHound AI, Inc.",
-      "current_price": 9.63,
-      "market_cap_bn": 4.1,
-      "outside_rth_price": 8.47,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SOUN"
-    },
-    {
-      "rank": 7,
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
       "current_price": 23.49,
@@ -83,26 +72,37 @@
       "yahoo_url": "https://finance.yahoo.com/quote/TTD"
     },
     {
-      "rank": 8,
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "current_price": 505.72,
-      "market_cap_bn": 128.72,
-      "outside_rth_price": 505.44,
+      "rank": 7,
+      "ticker": "MELI",
+      "name": "MercadoLibre, Inc.",
+      "current_price": 1870.01,
+      "market_cap_bn": 94.8,
+      "outside_rth_price": 1767.95,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:50.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/CRWD"
+      "outside_rth_time_iso": "2026-05-07T23:59:34.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/MELI"
+    },
+    {
+      "rank": 8,
+      "ticker": "INOD",
+      "name": "Innodata Inc.",
+      "current_price": 45.64,
+      "market_cap_bn": 1.49,
+      "outside_rth_price": 59.1,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:59:46.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/INOD"
     },
     {
       "rank": 9,
-      "ticker": "SHAK",
-      "name": "Shake Shack, Inc.",
-      "current_price": 69.24,
-      "market_cap_bn": 2.96,
-      "outside_rth_price": 68.9125,
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "current_price": 202.55,
+      "market_cap_bn": 213.49,
+      "outside_rth_price": 201.9,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:53.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/SHAK"
+      "outside_rth_time_iso": "2026-05-07T23:59:56.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/QCOM"
     },
     {
       "rank": 10,
@@ -117,28 +117,17 @@
     },
     {
       "rank": 11,
-      "ticker": "MELI",
-      "name": "MercadoLibre, Inc.",
-      "current_price": 1870.01,
-      "market_cap_bn": 94.8,
-      "outside_rth_price": 1767.95,
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "current_price": 505.72,
+      "market_cap_bn": 128.72,
+      "outside_rth_price": 505.44,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:34.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/MELI"
+      "outside_rth_time_iso": "2026-05-07T23:59:50.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRWD"
     },
     {
       "rank": 12,
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics, Inc.",
-      "current_price": 157.55,
-      "market_cap_bn": 12.61,
-      "outside_rth_price": 145.7507,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:58.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/AAOI"
-    },
-    {
-      "rank": 13,
       "ticker": "MRVL",
       "name": "Marvell Technology, Inc.",
       "current_price": 160.01,
@@ -149,29 +138,7 @@
       "yahoo_url": "https://finance.yahoo.com/quote/MRVL"
     },
     {
-      "rank": 14,
-      "ticker": "PLNT",
-      "name": "Planet Fitness, Inc.",
-      "current_price": 44.01,
-      "market_cap_bn": 3.51,
-      "outside_rth_price": 44.01,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:38.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/PLNT"
-    },
-    {
-      "rank": 15,
-      "ticker": "AKAM",
-      "name": "Akamai Technologies, Inc.",
-      "current_price": 116.69,
-      "market_cap_bn": 17.18,
-      "outside_rth_price": 151.2,
-      "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/AKAM"
-    },
-    {
-      "rank": 16,
+      "rank": 13,
       "ticker": "COIN",
       "name": "Coinbase Global, Inc.",
       "current_price": 192.96,
@@ -182,7 +149,7 @@
       "yahoo_url": "https://finance.yahoo.com/quote/COIN"
     },
     {
-      "rank": 17,
+      "rank": 14,
       "ticker": "RXT",
       "name": "Rackspace Technology, Inc.",
       "current_price": 3.52,
@@ -193,29 +160,29 @@
       "yahoo_url": "https://finance.yahoo.com/quote/RXT"
     },
     {
-      "rank": 18,
-      "ticker": "INOD",
-      "name": "Innodata Inc.",
-      "current_price": 45.64,
-      "market_cap_bn": 1.49,
-      "outside_rth_price": 59.1,
+      "rank": 15,
+      "ticker": "SHAK",
+      "name": "Shake Shack, Inc.",
+      "current_price": 69.24,
+      "market_cap_bn": 2.96,
+      "outside_rth_price": 68.9125,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:46.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/INOD"
+      "outside_rth_time_iso": "2026-05-07T23:59:53.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHAK"
     },
     {
-      "rank": 19,
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "current_price": 202.55,
-      "market_cap_bn": 213.49,
-      "outside_rth_price": 201.9,
+      "rank": 16,
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics, Inc.",
+      "current_price": 157.55,
+      "market_cap_bn": 12.61,
+      "outside_rth_price": 145.7507,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:56.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/QCOM"
+      "outside_rth_time_iso": "2026-05-07T23:59:58.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAOI"
     },
     {
-      "rank": 20,
+      "rank": 17,
       "ticker": "XYZ",
       "name": "Block, Inc.",
       "current_price": 70.14,
@@ -226,18 +193,29 @@
       "yahoo_url": "https://finance.yahoo.com/quote/XYZ"
     },
     {
-      "rank": 21,
-      "ticker": "ABNB",
-      "name": "Airbnb, Inc.",
-      "current_price": 140.46,
-      "market_cap_bn": 83.51,
-      "outside_rth_price": 139.01,
+      "rank": 18,
+      "ticker": "SOUN",
+      "name": "SoundHound AI, Inc.",
+      "current_price": 9.63,
+      "market_cap_bn": 4.1,
+      "outside_rth_price": 8.47,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:25.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/ABNB"
+      "outside_rth_time_iso": "2026-05-07T23:59:59.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/SOUN"
     },
     {
-      "rank": 22,
+      "rank": 19,
+      "ticker": "AKAM",
+      "name": "Akamai Technologies, Inc.",
+      "current_price": 116.69,
+      "market_cap_bn": 17.18,
+      "outside_rth_price": 151.2,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:59:59.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/AKAM"
+    },
+    {
+      "rank": 20,
       "ticker": "IRM",
       "name": "Iron Mountain Incorporated (Del",
       "current_price": 126.81,
@@ -248,37 +226,59 @@
       "yahoo_url": "https://finance.yahoo.com/quote/IRM"
     },
     {
-      "rank": 23,
-      "ticker": "HAWK",
-      "name": "337637",
-      "current_price": 34,
-      "market_cap_bn": 3.16,
-      "outside_rth_price": 33.4601,
+      "rank": 21,
+      "ticker": "PLNT",
+      "name": "Planet Fitness, Inc.",
+      "current_price": 44.01,
+      "market_cap_bn": 3.51,
+      "outside_rth_price": 44.01,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:59.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/HAWK"
+      "outside_rth_time_iso": "2026-05-07T23:59:38.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/PLNT"
+    },
+    {
+      "rank": 22,
+      "ticker": "TM",
+      "name": "Toyota Motor Corporation",
+      "current_price": 189,
+      "market_cap_bn": 223.8,
+      "outside_rth_price": 191,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:57:42.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TM"
+    },
+    {
+      "rank": 23,
+      "ticker": "HIMX",
+      "name": "Himax Technologies, Inc.",
+      "current_price": 16.03,
+      "market_cap_bn": 2.8,
+      "outside_rth_price": 15.84,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:59:13.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/HIMX"
     },
     {
       "rank": 24,
-      "ticker": "XRP-USD",
-      "name": "XRP USD",
-      "current_price": 1.3846383,
-      "market_cap_bn": 85.57,
-      "outside_rth_price": null,
-      "outside_rth_side": null,
-      "outside_rth_time_iso": null,
-      "yahoo_url": "https://finance.yahoo.com/quote/XRP-USD"
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "current_price": 354.11,
+      "market_cap_bn": 55.43,
+      "outside_rth_price": 354.99,
+      "outside_rth_side": "Post",
+      "outside_rth_time_iso": "2026-05-07T23:59:38.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TER"
     },
     {
       "rank": 25,
-      "ticker": "ZTS",
-      "name": "Zoetis Inc.",
-      "current_price": 87.31,
-      "market_cap_bn": 36.86,
-      "outside_rth_price": 87.67,
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "current_price": 49.47,
+      "market_cap_bn": 8.88,
+      "outside_rth_price": 49.2799,
       "outside_rth_side": "Post",
-      "outside_rth_time_iso": "2026-05-07T23:59:33.000Z",
-      "yahoo_url": "https://finance.yahoo.com/quote/ZTS"
+      "outside_rth_time_iso": "2026-05-07T23:59:49.000Z",
+      "yahoo_url": "https://finance.yahoo.com/quote/TEM"
     }
   ]
 }

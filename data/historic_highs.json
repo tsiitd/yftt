@@ -710,6 +710,46 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-07"
+    },
+    "FLR": {
+      "high_52wk_t1": 56.77000045776367,
+      "high_52wk_t2": 56.77000045776367,
+      "high_52wk_t3": 56.77000045776367,
+      "t1_close": 51.08000183105469,
+      "t2_close": 54.20000076293945,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "ETH-USD": {
+      "high_52wk_t1": 4715.24609375,
+      "high_52wk_t2": 4715.24609375,
+      "high_52wk_t3": 4715.24609375,
+      "t1_close": 2291.107666015625,
+      "t2_close": 2350.802001953125,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "BE": {
+      "high_52wk_t1": 295.25,
+      "high_52wk_t2": 295.25,
+      "high_52wk_t3": 295.25,
+      "t1_close": 258.6400146484375,
+      "t2_close": 285.4700012207031,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "ZTS": {
+      "high_52wk_t1": 170.3000030517578,
+      "high_52wk_t2": 170.3000030517578,
+      "high_52wk_t3": 170.3000030517578,
+      "t1_close": 87.30999755859375,
+      "t2_close": 111.22000122070312,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-07"
     }
   }
 }

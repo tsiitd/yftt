@@ -1240,6 +1240,45 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-06"
+    },
+    "AKAM": {
+      "high_52wk_t1": 121.98999786376953,
+      "high_52wk_t2": 121.98999786376953,
+      "high_52wk_t3": 119.1500015258789,
+      "t1_close": 116.69000244140625,
+      "t2_close": 121.98999786376953,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": true,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "IRM": {
+      "high_52wk_t1": 132.05999755859375,
+      "high_52wk_t2": 132.05999755859375,
+      "high_52wk_t3": 131.6999969482422,
+      "t1_close": 126.80999755859375,
+      "t2_close": 132.05999755859375,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": true,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "HAWK": {
+      "high_52wk_t1": 34,
+      "high_52wk_t2": null,
+      "high_52wk_t3": null,
+      "t1_close": 34,
+      "yesterday_was_52w_high": true,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-07"
+    },
+    "XRP-USD": {
+      "high_52wk_t1": 3.121467113494873,
+      "high_52wk_t2": 3.121467113494873,
+      "high_52wk_t3": 3.121467113494873,
+      "t1_close": 1.424720048904419,
+      "t2_close": 1.4131489992141724,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-06"
     }
   }
 }

@@ -1090,6 +1090,46 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-08"
+    },
+    "QUBT": {
+      "high_52wk_t1": 24.6200008392334,
+      "high_52wk_t2": 24.6200008392334,
+      "high_52wk_t3": 24.6200008392334,
+      "t1_close": 9.600000381469727,
+      "t2_close": 9.630000114440918,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-08"
+    },
+    "CLSK": {
+      "high_52wk_t1": 23.200000762939453,
+      "high_52wk_t2": 23.200000762939453,
+      "high_52wk_t3": 23.200000762939453,
+      "t1_close": 14.199999809265137,
+      "t2_close": 13.979999542236328,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-08"
+    },
+    "GPRO": {
+      "high_52wk_t1": 2.880000114440918,
+      "high_52wk_t2": 2.880000114440918,
+      "high_52wk_t3": 2.880000114440918,
+      "t1_close": 1.3700000047683716,
+      "t2_close": 1.3899999856948853,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-08"
+    },
+    "GTM": {
+      "high_52wk_t1": 12.199999809265137,
+      "high_52wk_t2": 12.199999809265137,
+      "high_52wk_t3": 12.199999809265137,
+      "t1_close": 6.380000114440918,
+      "t2_close": 6.630000114440918,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-08"
     }
   }
 }

@@ -980,6 +980,76 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-15"
+    },
+    "COST": {
+      "high_52wk_t1": 1056.8499755859375,
+      "high_52wk_t2": 1056.8499755859375,
+      "high_52wk_t3": 1056.8499755859375,
+      "t1_close": 1048.949951171875,
+      "t2_close": 1041.25,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "AMC": {
+      "high_52wk_t1": 4.010000228881836,
+      "high_52wk_t2": 4.010000228881836,
+      "high_52wk_t3": 4.010000228881836,
+      "t1_close": 1.2799999713897705,
+      "t2_close": 1.340000033378601,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "WGRX": {
+      "high_52wk_t1": 2.680000066757202,
+      "high_52wk_t2": 2.680000066757202,
+      "high_52wk_t3": 2.680000066757202,
+      "t1_close": 0.08399999886751175,
+      "t2_close": 0.09399999678134918,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "ZETA": {
+      "high_52wk_t1": 24.399999618530273,
+      "high_52wk_t2": 24.399999618530273,
+      "high_52wk_t3": 24.399999618530273,
+      "t1_close": 17.190000534057617,
+      "t2_close": 16.579999923706055,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "BIO": {
+      "high_52wk_t1": 339.75,
+      "high_52wk_t2": 339.75,
+      "high_52wk_t3": 339.75,
+      "t1_close": 247.52999877929688,
+      "t2_close": 246.27000427246094,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "OSCR": {
+      "high_52wk_t1": 23.729999542236328,
+      "high_52wk_t2": 23.729999542236328,
+      "high_52wk_t3": 23.729999542236328,
+      "t1_close": 23.31999969482422,
+      "t2_close": 23.149999618530273,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "KEEL": {
+      "high_52wk_t1": 6.46999979019165,
+      "high_52wk_t2": 6.46999979019165,
+      "high_52wk_t3": 6.46999979019165,
+      "t1_close": 4.389999866485596,
+      "t2_close": 4.610000133514404,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
     }
   }
 }

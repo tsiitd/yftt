@@ -740,6 +740,66 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-15"
+    },
+    "VRAX": {
+      "high_52wk_t1": 1.1100000143051147,
+      "high_52wk_t2": 1.1100000143051147,
+      "high_52wk_t3": 1.1100000143051147,
+      "t1_close": 0.15399999916553497,
+      "t2_close": 0.14000000059604645,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "HIMS": {
+      "high_52wk_t1": 66.18000030517578,
+      "high_52wk_t2": 66.18000030517578,
+      "high_52wk_t3": 66.18000030517578,
+      "t1_close": 25.049999237060547,
+      "t2_close": 24.239999771118164,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "IBRX": {
+      "high_52wk_t1": 11.550000190734863,
+      "high_52wk_t2": 11.550000190734863,
+      "high_52wk_t3": 11.550000190734863,
+      "t1_close": 7.96999979019165,
+      "t2_close": 8.149999618530273,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "QNCX": {
+      "high_52wk_t1": 44,
+      "high_52wk_t2": 44,
+      "high_52wk_t3": 44,
+      "t1_close": 1.149999976158142,
+      "t2_close": 1.1799999475479126,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "RAMP": {
+      "high_52wk_t1": 34.20000076293945,
+      "high_52wk_t2": 34.20000076293945,
+      "high_52wk_t3": 34.20000076293945,
+      "t1_close": 29.65999984741211,
+      "t2_close": 29.1299991607666,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-15"
+    },
+    "SHAZ": {
+      "high_52wk_t1": 55.630001068115234,
+      "high_52wk_t2": 55.630001068115234,
+      "high_52wk_t3": 55.029998779296875,
+      "t1_close": 53.93000030517578,
+      "t2_close": 55.630001068115234,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": true,
+      "cached_for_trading_date": "2026-05-15"
     }
   }
 }

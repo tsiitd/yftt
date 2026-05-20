@@ -1100,6 +1100,76 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-19"
+    },
+    "RY.TO": {
+      "high_52wk_t1": 252.52999877929688,
+      "high_52wk_t2": 252.5,
+      "high_52wk_t3": 252.42999267578125,
+      "t1_close": 252.52999877929688,
+      "t2_close": 252.5,
+      "yesterday_was_52w_high": true,
+      "t2_was_52w_high": true,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "NCNO": {
+      "high_52wk_t1": 32.689998626708984,
+      "high_52wk_t2": 32.689998626708984,
+      "high_52wk_t3": 32.689998626708984,
+      "t1_close": 15.050000190734863,
+      "t2_close": 15.109999656677246,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "INTU": {
+      "high_52wk_t1": 807.3900146484375,
+      "high_52wk_t2": 807.3900146484375,
+      "high_52wk_t3": 807.3900146484375,
+      "t1_close": 399.7099914550781,
+      "t2_close": 403.1600036621094,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "ORBS": {
+      "high_52wk_t1": 45.08000183105469,
+      "high_52wk_t2": 45.08000183105469,
+      "high_52wk_t3": 45.08000183105469,
+      "t1_close": 0.7300000190734863,
+      "t2_close": 0.7559999823570251,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "GS": {
+      "high_52wk_t1": 975.8599853515625,
+      "high_52wk_t2": 975.8599853515625,
+      "high_52wk_t3": 975.8599853515625,
+      "t1_close": 928.739990234375,
+      "t2_close": 946.3599853515625,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "AC.TO": {
+      "high_52wk_t1": 23.290000915527344,
+      "high_52wk_t2": 23.290000915527344,
+      "high_52wk_t3": 23.290000915527344,
+      "t1_close": 18.780000686645508,
+      "t2_close": 19.18000030517578,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "APLD": {
+      "high_52wk_t1": 46.709999084472656,
+      "high_52wk_t2": 46.709999084472656,
+      "high_52wk_t3": 46.709999084472656,
+      "t1_close": 36.619998931884766,
+      "t2_close": 39.13999938964844,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
     }
   }
 }

@@ -720,6 +720,76 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-19"
+    },
+    "LOW": {
+      "high_52wk_t1": 287.3900146484375,
+      "high_52wk_t2": 287.3900146484375,
+      "high_52wk_t3": 287.3900146484375,
+      "t1_close": 218.3699951171875,
+      "t2_close": 218.02000427246094,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "VFC": {
+      "high_52wk_t1": 21.549999237060547,
+      "high_52wk_t2": 21.549999237060547,
+      "high_52wk_t3": 21.549999237060547,
+      "t1_close": 16.739999771118164,
+      "t2_close": 16.889999389648438,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "HAS": {
+      "high_52wk_t1": 105.94000244140625,
+      "high_52wk_t2": 105.94000244140625,
+      "high_52wk_t3": 105.94000244140625,
+      "t1_close": 97.18000030517578,
+      "t2_close": 93.72000122070312,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "GCL": {
+      "high_52wk_t1": 4.110000133514404,
+      "high_52wk_t2": 4.110000133514404,
+      "high_52wk_t3": 4.110000133514404,
+      "t1_close": 0.4320000112056732,
+      "t2_close": 0.4399999976158142,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "NXXT": {
+      "high_52wk_t1": 3.309999942779541,
+      "high_52wk_t2": 3.309999942779541,
+      "high_52wk_t3": 3.309999942779541,
+      "t1_close": 0.8199999928474426,
+      "t2_close": 0.4099999964237213,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "PPBT": {
+      "high_52wk_t1": 27.75,
+      "high_52wk_t2": 27.75,
+      "high_52wk_t3": 27.75,
+      "t1_close": 3.509999990463257,
+      "t2_close": 3.7799999713897705,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
+    },
+    "TJX": {
+      "high_52wk_t1": 165,
+      "high_52wk_t2": 165,
+      "high_52wk_t3": 165,
+      "t1_close": 150.67999267578125,
+      "t2_close": 150.25,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-19"
     }
   }
 }

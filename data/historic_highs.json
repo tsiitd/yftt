@@ -680,6 +680,76 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-21"
+    },
+    "V": {
+      "high_52wk_t1": 373.30999755859375,
+      "high_52wk_t2": 373.30999755859375,
+      "high_52wk_t3": 373.30999755859375,
+      "t1_close": 331.1199951171875,
+      "t2_close": 330.75,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "^IXIC": {
+      "high_52wk_t1": 26635.220703125,
+      "high_52wk_t2": 26635.220703125,
+      "high_52wk_t3": 26635.220703125,
+      "t1_close": 26293.099609375,
+      "t2_close": 26270.359375,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "GC=F": {
+      "high_52wk_t1": 5318.39990234375,
+      "high_52wk_t2": 5318.39990234375,
+      "high_52wk_t3": 5318.39990234375,
+      "t1_close": 4539.7998046875,
+      "t2_close": 4531.2998046875,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "JPM": {
+      "high_52wk_t1": 334.6099853515625,
+      "high_52wk_t2": 334.6099853515625,
+      "high_52wk_t3": 334.6099853515625,
+      "t1_close": 303,
+      "t2_close": 301.9800109863281,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "AKTX": {
+      "high_52wk_t1": 56.599998474121094,
+      "high_52wk_t2": 56.599998474121094,
+      "high_52wk_t3": 56.599998474121094,
+      "t1_close": 5.139999866485596,
+      "t2_close": 3.430000066757202,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "GOVX": {
+      "high_52wk_t1": 33,
+      "high_52wk_t2": 33,
+      "high_52wk_t3": 33,
+      "t1_close": 2.75,
+      "t2_close": 2.2300000190734863,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
+    },
+    "^DJI": {
+      "high_52wk_t1": 50285.66015625,
+      "high_52wk_t2": 50188.140625,
+      "high_52wk_t3": 50188.140625,
+      "t1_close": 50285.66015625,
+      "t2_close": 50009.3515625,
+      "yesterday_was_52w_high": true,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-21"
     }
   }
 }

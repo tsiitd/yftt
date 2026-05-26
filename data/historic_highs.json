@@ -1490,6 +1490,26 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-22"
+    },
+    "HIMS": {
+      "high_52wk_t1": 66.18000030517578,
+      "high_52wk_t2": 66.18000030517578,
+      "high_52wk_t3": 66.18000030517578,
+      "t1_close": 23.75,
+      "t2_close": 24.010000228881836,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "FPS": {
+      "high_52wk_t1": 50.189998626708984,
+      "high_52wk_t2": 50.189998626708984,
+      "high_52wk_t3": 50.189998626708984,
+      "t1_close": 47.900001525878906,
+      "t2_close": 48.52000045776367,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
     }
   }
 }

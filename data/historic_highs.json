@@ -1310,6 +1310,76 @@
       "yesterday_was_52w_high": false,
       "t2_was_52w_high": false,
       "cached_for_trading_date": "2026-05-22"
+    },
+    "USAR": {
+      "high_52wk_t1": 38.68000030517578,
+      "high_52wk_t2": 38.68000030517578,
+      "high_52wk_t3": 38.68000030517578,
+      "t1_close": 25.299999237060547,
+      "t2_close": 24.290000915527344,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "CODX": {
+      "high_52wk_t1": 37.79999923706055,
+      "high_52wk_t2": 37.79999923706055,
+      "high_52wk_t3": 37.79999923706055,
+      "t1_close": 5.070000171661377,
+      "t2_close": 3.7100000381469727,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "DXYZ": {
+      "high_52wk_t1": 71.23999786376953,
+      "high_52wk_t2": 71.23999786376953,
+      "high_52wk_t3": 71.23999786376953,
+      "t1_close": 66.63999938964844,
+      "t2_close": 61.65999984741211,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "INTU": {
+      "high_52wk_t1": 807.3900146484375,
+      "high_52wk_t2": 807.3900146484375,
+      "high_52wk_t3": 807.3900146484375,
+      "t1_close": 319.94000244140625,
+      "t2_close": 307.07000732421875,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "SIDU": {
+      "high_52wk_t1": 5.949999809265137,
+      "high_52wk_t2": 5.949999809265137,
+      "high_52wk_t3": 5.949999809265137,
+      "t1_close": 5.119999885559082,
+      "t2_close": 4.130000114440918,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "BBD": {
+      "high_52wk_t1": 4.210000038146973,
+      "high_52wk_t2": 4.210000038146973,
+      "high_52wk_t3": 4.210000038146973,
+      "t1_close": 3.4700000286102295,
+      "t2_close": 3.559999942779541,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
+    },
+    "ABEV": {
+      "high_52wk_t1": 3.430000066757202,
+      "high_52wk_t2": 3.430000066757202,
+      "high_52wk_t3": 3.430000066757202,
+      "t1_close": 3.200000047683716,
+      "t2_close": 3.2699999809265137,
+      "yesterday_was_52w_high": false,
+      "t2_was_52w_high": false,
+      "cached_for_trading_date": "2026-05-22"
     }
   }
 }
